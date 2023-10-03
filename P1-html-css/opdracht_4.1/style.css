@@ -1,0 +1,67 @@
+/* Stijl voor h1-elementen */
+h1 {
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Stijl voor h2-elementen */
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+/* Stijl voor h3-elementen */
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+/* Stijl voor p-elementen */
+p {
+    color: #4D4D4D;
+    font-weight: bold; /* Alleen de eerste paragraaf is dikgedrukt */
+}
+
+/* Stijl voor a-elementen */
+a {
+    color: #8A2BE2;
+    text-decoration: none; /* Verwijder de onderlijn onder de linktekst */
+}
+
+header {
+    width: 100vw;
+    min-height: 33vh;
+    background-image: url('./img/gaming\ room.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  header h1, header p {
+    color: rgb(255, 255, 255);
+  }
+  
+
+  img {
+    width: 50vw;
+  }
+  
+  article {
+    border: 2px solid #727785;
+    border-radius: 12px;
+    padding: 5px;
+    border-left-width: 15px;
+  }
+  
+  article::before {
+    content: "";
+    height: 100%;
+    background-color: #1f2577b9;
+    position: absolute;
+  }
